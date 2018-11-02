@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <article>
     <h1>Crew</h1>
-  </div>
+  </article>
 </template>
 
 <script>
@@ -9,7 +9,7 @@ export default {
   name: 'Crew',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+
     }
   }
 }

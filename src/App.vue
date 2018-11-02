@@ -2,6 +2,7 @@
   <div id="app">
     <navigation></navigation>
     <router-view/>
+    <div></div>
     <Footer></Footer>
   </div>
 </template>
@@ -12,22 +13,28 @@
 
   export default {
     name: 'App',
-    components: {Navigation,Footer}
+    components: {Navigation, Footer}
   }
 </script>
 
 <style>
-  html, body, #app{
+  html, body, #app {
+    font-family: Consolas, serif;
+
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    background-color: #181717;
   }
 
-  #app{
-
+  #app {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: 1fr auto;
+  }
+
+  article, footer {
+    background-color: white;
   }
 </style>

@@ -1,8 +1,12 @@
 <template>
-  <div>
-    <h1>Songs</h1>
+    <article>
+      <h1>Songs</h1>
 
-  </div>
+      adss
+
+    </article>
+
+
 </template>
 
 <script>
