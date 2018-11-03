@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
     <div class="container">
-      <img src="static/navigation.svg">
+      <img src="static/icons/navigation.svg">
       <ul>
         <li v-for="i in nav"
             v-on:click="route(i.route)"
@@ -18,7 +18,7 @@
     position: relative;
   }
 
-  .active {
+  .active, li:hover {
     color: red;
   }
   img {
@@ -27,12 +27,12 @@
     animation: spin 40s linear infinite;
   }
 
-  @keyframes spin {
+/*  @keyframes spin {
     100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
-  }
+  }*/
 
   ul {
     position: absolute;
