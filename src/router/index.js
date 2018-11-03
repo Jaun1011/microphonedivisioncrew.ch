@@ -9,7 +9,7 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-    {path: '/', component: MainComponent},
+    {path: '/', component: CrewComponent},
     {path: '/crew', component: CrewComponent},
     {path: '/pictures', component: PicturesComponent},
     {path: '/songs', component: SongsComponent},

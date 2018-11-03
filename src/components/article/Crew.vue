@@ -19,10 +19,11 @@
             </div>
 
 
-
             <div>
-                <h3>Knasti</h3>
+                <h3>Daniel</h3>
+                TBD
             </div>
+
             <div class="text redBorder">
                 <h3>Thomas Eggenberger</h3>
                 in münchenbuchsee ufgwachse ha e 12 jährige sohn u bi sozäge der maneger u
