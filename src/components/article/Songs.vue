@@ -1,29 +1,57 @@
 <template>
     <article>
+
         <h1>Songs</h1>
-        <table>
-
-            <tbody>
-            <tr  v-for="song in songs">
-                <td>
-                    <audio controls>
-                        <source v-bind:src="song.src" type="audio/ogg">
-                    </audio>
-                </td>
-                <td>{{song.label}}</td>
-            </tr>
 
 
-            </tbody>
+        <div class="container">
+            <div>
+                <table>
+                    <tr  v-for="song in songs">
+                        <td>
+                            <audio controls>
+                                <source v-bind:src="song.src" type="audio/ogg">
+                            </audio>
+                        </td>
+                        <td>{{song.label}}</td>
+                    </tr>
+                </table>
+            </div>
 
 
-        </table>
+            <div>
+                <a class="download" href="static/songs/MDC.7z" download="proposed_file_name">Download Full Album</a>
+            </div>
+        </div>
+
 
 
     </article>
-
-
 </template>
+
+
+<style scoped>
+
+    .container{
+        display: grid;
+        height: 100%;
+        grid-template-rows: 50% 50%;
+    }
+
+    .download{
+        color: black;
+        text-decoration: none;
+        border: 2px solid black;
+        padding: 5px;
+    }
+    .download:hover{
+        color: red;
+        border: 2px solid red;
+
+    }
+
+</style>
+
 
 <script>
     export default {
@@ -43,6 +71,3 @@
     }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
