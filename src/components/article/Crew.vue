@@ -14,20 +14,26 @@
             </div>
 
 
-            <div>
-                <h3>Daniel</h3>
-                TBD
-            </div>
+
+            <img src="static/pics/p4.jpg"/>
+
+
 
             <div class="text redBorder">
                 <h3>Thomas Eggenberger</h3>
                 in münchenbuchsee ufgwachse ha e 12 jährige sohn u bi sozäge der maneger u
                 organisator.
+            </div>            <img src="static/pics/p2.jpg"/>
+
+
+
+
+            <div class="text">
+                <h3>Daniel</h3>
+                Hier folgt noch ein Text
             </div>
 
 
-
-            <img src="static/pics/p2.jpg"/>
         </div>
 
     </article>
@@ -39,9 +45,18 @@
         grid-template-columns: 33% 33% 33%;
     }
 
-    .text{
+    @media only screen and (max-width: 1000px) {
+        .content {
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
+
+
+        .text{
         border: 1px solid black;
         padding: 0.5rem;
+        margin: 1rem;
     }
 
     img {
@@ -53,6 +68,9 @@
     .redBorder{
         border: 2px solid red;
     }
+
+
+
 </style>
 
 

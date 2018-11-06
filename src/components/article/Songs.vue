@@ -20,7 +20,7 @@
 
 
             <div>
-                <a class="download" href="static/songs/MDC.7z" download="proposed_file_name">Download Full Album</a>
+                <a class="download" href="static/songs/MDC.7z" download="mdc.7z">Download Full Album</a>
             </div>
         </div>
 

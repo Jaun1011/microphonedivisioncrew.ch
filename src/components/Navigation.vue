@@ -27,12 +27,12 @@
     animation: spin 40s linear infinite;
   }
 
-/*  @keyframes spin {
+     @keyframes spin {
     100% {
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
-  }*/
+  }
 
   ul {
     position: absolute;
