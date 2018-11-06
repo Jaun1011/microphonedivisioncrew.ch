@@ -7,15 +7,10 @@
             <img src="static/pics/p1.jpg" class="redBorder"/>
 
             <div class="text">
-                <h3>Reaction</h3>
+                <h3>Reaction MC</h3>
+                Geboren in Zwickau am 4.7.1986 (nähe Leibzig) lebt seit 2009 in der Schweiz 2002 hat er die ersten Freestyles gekickt und 2004 das erste Album aufgenommen.
+                Er hat 2 Kinder und beruflich Bierbrauer. Wenn es die Zeit erlaubt, nimmt er an diversen Rapbattles teil.
 
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-                labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et
-                ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                magna aliquyam erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </div>
 
 
